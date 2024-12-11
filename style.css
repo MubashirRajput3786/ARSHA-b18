@@ -10,3 +10,14 @@
 .dropdown-menu a {
   color: black !important;
 }
+.anim-img {
+  animation: up-down 3s linear infinite alternate;
+}
+@keyframes up-down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20%);
+  }
+}
