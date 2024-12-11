@@ -1,0 +1,12 @@
+:root {
+  --blue: #37517e;
+}
+.front {
+  background: var(--blue);
+}
+.front a {
+  color: white !important;
+}
+.dropdown-menu a {
+  color: black !important;
+}
