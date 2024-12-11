@@ -21,3 +21,27 @@
     transform: translateY(-17%);
   }
 }
+.gray {
+  width: 100%;
+  height: 5px;
+  background-color: lightgray;
+  border-radius: 30px;
+  margin: auto;
+  position: relative;
+}
+
+.blue {
+  width: 40%;
+  height: 6px;
+  background-color: var(--bs-info);
+  margin: auto;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.max-content {
+  width: max-content;
+  margin: auto;
+}
