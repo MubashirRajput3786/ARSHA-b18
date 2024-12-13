@@ -48,3 +48,6 @@
   width: max-content;
   margin: auto;
 }
+.bg-blue {
+  background: var(--blue);
+}
