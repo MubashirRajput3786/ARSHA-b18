@@ -13,6 +13,17 @@
 .anim-img {
   animation: up-down 3s linear infinite alternate;
 }
+nav {
+  position: fixed !important;
+  top: 0 !important;
+  background: #37517e;
+  width: 100%;
+  left: 0;
+  z-index: 999;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
 @keyframes up-down {
   from {
     transform: translateY(0);
@@ -50,4 +61,11 @@
 }
 .bg-blue {
   background: var(--blue);
+}
+.bg-img {
+  background-image: linear-gradient(
+      rgba(55, 81, 126, 0.4),
+      rgba(55, 81, 126, 0.9)
+    ),
+    url(https://themewagon.github.io/arsha/assets/img/cta-bg.jpg);
 }
