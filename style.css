@@ -37,7 +37,7 @@ nav {
   color: #37517e;
 }
 .gray {
-  width: 100%;
+  width: 85px;
   height: 3px;
   background-color: lightgray;
   border-radius: 30px;
@@ -117,4 +117,7 @@ transition: all 0.5s;
 
 .s-card:hover{
     transform: translateY(-10px);
+}
+.clip-circle{
+    clip-path: circle();
 }
