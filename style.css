@@ -1,5 +1,6 @@
 :root {
   --blue: #37517e;
+  --bs-info
 }
 .front {
   background: var(--blue);
@@ -79,4 +80,21 @@ nav {
 }
 .img-parant:hover .img-contant {
   transform: translateY(0);
+}
+.my-card:hover{
+transform: translatey(-10px);
+}
+
+.my-card{
+transition: all 0.5s;
+}
+
+
+
+.my-card:hover h5{
+    color:var(--bs-info);
+}
+
+.my-card h5{
+transition: all 0.5s;
 }
