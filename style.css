@@ -80,6 +80,7 @@ nav {
 }
 .img-parant:hover .img-contant {
   transform: translateY(0);
+
 }
 .my-card:hover{
 transform: translatey(-10px);
@@ -97,4 +98,23 @@ transition: all 0.5s;
 
 .my-card h5{
 transition: all 0.5s;
+}
+
+.my-hr{
+    margin: auto;
+}
+@media (max-width:765px){
+    .team-img{
+        width: 40% !important;
+        margin: auto !important;
+        display:  block ;
+    }
+
+}
+.s-card{
+    transition: all 0.3s;
+}
+
+.s-card:hover{
+    transform: translateY(-10px);
 }
