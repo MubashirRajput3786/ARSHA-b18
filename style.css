@@ -69,3 +69,14 @@ nav {
     ),
     url(https://themewagon.github.io/arsha/assets/img/cta-bg.jpg);
 }
+.img-parant {
+  overflow: hidden;
+}
+.img-contant {
+  transition: all 0.5s;
+  bottom: 0;
+  transform: translateY(90px);
+}
+.img-parant:hover .img-contant {
+  transform: translateY(0);
+}
