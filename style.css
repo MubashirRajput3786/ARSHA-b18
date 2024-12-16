@@ -63,12 +63,20 @@ nav {
 .bg-blue {
   background: var(--blue);
 }
+.bg-img{
+  
+}
 .bg-img {
   background-image: linear-gradient(
       rgba(55, 81, 126, 0.4),
       rgba(55, 81, 126, 0.9)
     ),
     url(https://themewagon.github.io/arsha/assets/img/cta-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    
 }
 .img-parant {
   overflow: hidden;
